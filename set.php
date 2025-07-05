@@ -43,7 +43,7 @@ function setWebhook(string $url, mixed $certificate = null, int $max_connections
     return bot('setWebhook', $params);
 }
 
-$out = setWebhook(url: 'https://atatunes.ir/novaproject/08/bot.php', max_connections: 50, allowed_updates: '["update_id","message","edited_message","channel_post","edited_channel_post","business_connection","tesbusiness_messaget","edited_business_message","deleted_business_messages","message_reaction	","message_reaction_count","inline_query","chosen_inline_result","callback_query","shipping_query","pre_checkout_query","purchased_paid_media","poll","poll_answer","my_chat_member","chat_member","chat_join_request","chat_boost","removed_chat_boost"]');
+$out = setWebhook(url: 'YOURE_URL', max_connections: 50, allowed_updates: '["update_id","message","edited_message","channel_post","edited_channel_post","business_connection","tesbusiness_messaget","edited_business_message","deleted_business_messages","message_reaction	","message_reaction_count","inline_query","chosen_inline_result","callback_query","shipping_query","pre_checkout_query","purchased_paid_media","poll","poll_answer","my_chat_member","chat_member","chat_join_request","chat_boost","removed_chat_boost"]');
 
 // $out = bot("setWebhook", $params);
 
